@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3E75FAD13748BFD0035EADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E75FAC13748BFD0035EADC /* UIKit.framework */; };
+		D3E75FAF13748BFD0035EADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E75FAE13748BFD0035EADC /* Foundation.framework */; };
+		D3E75FB113748BFD0035EADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E75FB013748BFD0035EADC /* CoreGraphics.framework */; };
+		D3E75FB713748BFE0035EADC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D3E75FB513748BFE0035EADC /* InfoPlist.strings */; };
+		D3E75FBA13748BFE0035EADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E75FB913748BFE0035EADC /* main.m */; };
+		D3E75FBD13748BFE0035EADC /* Box2DWrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E75FBC13748BFE0035EADC /* Box2DWrapperAppDelegate.m */; };
+		D3E75FC013748BFE0035EADC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E75FBE13748BFE0035EADC /* MainWindow.xib */; };
+		D3E75FC313748BFE0035EADC /* Box2DWrapperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E75FC213748BFE0035EADC /* Box2DWrapperViewController.m */; };
+		D3E75FC613748BFE0035EADC /* Box2DWrapperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3E75FC413748BFE0035EADC /* Box2DWrapperViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D3E75FA813748BFD0035EADC /* Box2DWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Box2DWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E75FAC13748BFD0035EADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D3E75FAE13748BFD0035EADC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D3E75FB013748BFD0035EADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D3E75FB413748BFD0035EADC /* Box2DWrapper-Info.plist */ = {isa = PBXFileReference; path = "Box2DWrapper-Info.plist"; sourceTree = "<group>"; };
+		D3E75FB613748BFE0035EADC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D3E75FB813748BFE0035EADC /* Box2DWrapper-Prefix.pch */ = {isa = PBXFileReference; path = "Box2DWrapper-Prefix.pch"; sourceTree = "<group>"; };
+		D3E75FB913748BFE0035EADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3E75FBB13748BFE0035EADC /* Box2DWrapperAppDelegate.h */ = {isa = PBXFileReference; path = Box2DWrapperAppDelegate.h; sourceTree = "<group>"; };
+		D3E75FBC13748BFE0035EADC /* Box2DWrapperAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box2DWrapperAppDelegate.m; sourceTree = "<group>"; };
+		D3E75FBF13748BFE0035EADC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D3E75FC113748BFE0035EADC /* Box2DWrapperViewController.h */ = {isa = PBXFileReference; path = Box2DWrapperViewController.h; sourceTree = "<group>"; };
+		D3E75FC213748BFE0035EADC /* Box2DWrapperViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box2DWrapperViewController.m; sourceTree = "<group>"; };
+		D3E75FC513748BFE0035EADC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Box2DWrapperViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3E75FA513748BFD0035EADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E75FAD13748BFD0035EADC /* UIKit.framework in Frameworks */,
+				D3E75FAF13748BFD0035EADC /* Foundation.framework in Frameworks */,
+				D3E75FB113748BFD0035EADC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3E75F9D13748BFD0035EADC = {
+			isa = PBXGroup;
+			children = (
+				D3E75FB213748BFD0035EADC /* Box2DWrapper */,
+				D3E75FAB13748BFD0035EADC /* Frameworks */,
+				D3E75FA913748BFD0035EADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3E75FA913748BFD0035EADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3E75FA813748BFD0035EADC /* Box2DWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3E75FAB13748BFD0035EADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E75FAC13748BFD0035EADC /* UIKit.framework */,
+				D3E75FAE13748BFD0035EADC /* Foundation.framework */,
+				D3E75FB013748BFD0035EADC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3E75FB213748BFD0035EADC /* Box2DWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				D3E75FBB13748BFE0035EADC /* Box2DWrapperAppDelegate.h */,
+				D3E75FBC13748BFE0035EADC /* Box2DWrapperAppDelegate.m */,
+				D3E75FBE13748BFE0035EADC /* MainWindow.xib */,
+				D3E75FC113748BFE0035EADC /* Box2DWrapperViewController.h */,
+				D3E75FC213748BFE0035EADC /* Box2DWrapperViewController.m */,
+				D3E75FC413748BFE0035EADC /* Box2DWrapperViewController.xib */,
+				D3E75FB313748BFD0035EADC /* Supporting Files */,
+			);
+			path = Box2DWrapper;
+			sourceTree = "<group>";
+		};
+		D3E75FB313748BFD0035EADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3E75FB413748BFD0035EADC /* Box2DWrapper-Info.plist */,
+				D3E75FB513748BFE0035EADC /* InfoPlist.strings */,
+				D3E75FB813748BFE0035EADC /* Box2DWrapper-Prefix.pch */,
+				D3E75FB913748BFE0035EADC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3E75FA713748BFD0035EADC /* Box2DWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3E75FC913748BFE0035EADC /* Build configuration list for PBXNativeTarget "Box2DWrapper" */;
+			buildPhases = (
+				D3E75FA413748BFD0035EADC /* Sources */,
+				D3E75FA513748BFD0035EADC /* Frameworks */,
+				D3E75FA613748BFD0035EADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Box2DWrapper;
+			productName = Box2DWrapper;
+			productReference = D3E75FA813748BFD0035EADC /* Box2DWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3E75F9F13748BFD0035EADC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D3E75FA213748BFD0035EADC /* Build configuration list for PBXProject "Box2DWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D3E75F9D13748BFD0035EADC;
+			productRefGroup = D3E75FA913748BFD0035EADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3E75FA713748BFD0035EADC /* Box2DWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3E75FA613748BFD0035EADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E75FB713748BFE0035EADC /* InfoPlist.strings in Resources */,
+				D3E75FC013748BFE0035EADC /* MainWindow.xib in Resources */,
+				D3E75FC613748BFE0035EADC /* Box2DWrapperViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3E75FA413748BFD0035EADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E75FBA13748BFE0035EADC /* main.m in Sources */,
+				D3E75FBD13748BFE0035EADC /* Box2DWrapperAppDelegate.m in Sources */,
+				D3E75FC313748BFE0035EADC /* Box2DWrapperViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3E75FB513748BFE0035EADC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E75FB613748BFE0035EADC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D3E75FBE13748BFE0035EADC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E75FBF13748BFE0035EADC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D3E75FC413748BFE0035EADC /* Box2DWrapperViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3E75FC513748BFE0035EADC /* en */,
+			);
+			name = Box2DWrapperViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3E75FC713748BFE0035EADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3E75FC813748BFE0035EADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		D3E75FCA13748BFE0035EADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2DWrapper/Box2DWrapper-Prefix.pch";
+				INFOPLIST_FILE = "Box2DWrapper/Box2DWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D3E75FCB13748BFE0035EADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Box2DWrapper/Box2DWrapper-Prefix.pch";
+				INFOPLIST_FILE = "Box2DWrapper/Box2DWrapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3E75FA213748BFD0035EADC /* Build configuration list for PBXProject "Box2DWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E75FC713748BFE0035EADC /* Debug */,
+				D3E75FC813748BFE0035EADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3E75FC913748BFE0035EADC /* Build configuration list for PBXNativeTarget "Box2DWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E75FCA13748BFE0035EADC /* Debug */,
+				D3E75FCB13748BFE0035EADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3E75F9F13748BFD0035EADC /* Project object */;
+}
